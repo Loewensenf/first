@@ -1,0 +1,55 @@
+body {
+  background:#fff;
+  margin:8px;
+  padding:0;
+  color:#000;
+  font:11px Tahoma,Verdana,sans-serif;
+  voice-family: "\"}\""; voice-family:inherit;
+}
+
+#navibox {
+  border:1px solid #d9d6cf;
+  padding: 0px;
+  margin: 0px;
+}
+
+#navibox ul
+{
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  background-color:#e5eeee;
+}
+
+#navibox li
+{
+  padding: 3px;
+  margin: 0px;
+}
+
+#navibox li.NavHead
+{
+  color: #555;
+	background:#D9D6CF url("images/headNEW.jpg") repeat-x bottom;
+  border:0px solid #d9d6cf;
+  font-weight: bold;
+  padding-left:17px;
+}
+
+#navibox li a
+{
+  height: 17px;
+  line-height: 17px;
+  display: block;
+  color: #000;
+  padding: 2px 14px;
+  border:1px solid #e5eeee;
+  text-decoration: none;
+}
+
+#navibox li a:hover
+{
+  border:1px solid #0a246a;
+  background: #b6bdd2;
+  text-decoration: none;
+}

@@ -1,0 +1,227 @@
+* {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+/* ricoLiveGrid */
+
+div.ricoLG_outerDiv {
+  position:relative;
+  /* border:thin solid blue;  /* for debugging */
+}
+
+div.ricoLG_innerDiv {
+  overflow:hidden;
+  position:absolute;
+  top:0px;
+  left:0px;
+  margin:0px;
+  padding:0px;
+}
+
+div.ricoLG_scrollDiv {
+  overflow:scroll;
+  position:relative;
+}
+
+div.ricoLG_resizeDiv {
+  position:absolute;
+  top:0px;
+  width:1px;
+  background-color:blue;
+}
+
+.ricoLG_table0, .ricoLG_table1 {
+  border: 1px solid black;
+  border-collapse: collapse; /* turning this off yields an interesting style */
+  margin-top:1px;   /* required for top border to display in FF */
+  margin-left:1px;  /* requiered for left border to display in ff */
+  margin-right:0px;
+  padding:0px;
+}
+
+.ricoLG_table0 th, .ricoLG_table1 th, .ricoLG_table0 td, .ricoLG_table1 td {
+  border: 1px solid black;
+  padding: 0px;
+}
+
+div.ricoLG_cell {
+  padding-left: 3px;
+  position:relative;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  margin: 0px;
+  border: 0px;
+  height: 12pt;
+  font-size: 10pt;
+}
+
+thead .ricoLG_cell, thead td, thead th {
+   background-color : #9BA7B3;
+   color            : #000000;
+   font-weight      : bold;
+}
+
+tr.ricoRowHighlight { background-color: #CCFF9D; }
+tr.ricoLG_evenRow   { }
+tr.ricoLG_oddRow    { background-color: #EEE; }
+
+div.ricoLG_frozenTabsDiv {
+  position:absolute;
+  top:0px;
+  left:0px;
+}
+
+div.ricoLG_scrollTabsDiv {
+  position:absolute;
+  top:0px;
+}
+
+div.ricoLG_Resize {
+  position:absolute;
+  width:5px;
+  height:100%;
+  top:0px;
+  right:0px;
+  cursor:e-resize;
+}
+
+img.ricoLG_MenuTarget {
+  position:absolute;
+  top:0px;
+  right:0px;
+  cursor:pointer;
+}
+
+div.ricoLG_messageDiv {
+  position:absolute;
+  z-index:200;
+  border:1px solid green;
+  background-color:white;
+  font-weight:bold;
+  font-size:larger;
+  color:navy;
+  text-align:center;
+  padding:4px;
+}
+
+p.ricoBookmark {
+  text-align: left;
+  margin-bottom: 3px;
+  font-size: 10pt;
+}
+
+/* kept for compatibility with previous versions */
+
+table.ricoLiveGrid {
+   table-layout : fixed;
+   border-left  : 1px solid #b8b8b8;
+   position     : relative;
+   width        : 500px;   /* required by Safari */
+}
+
+/* ricoMenu */
+
+div.ricoMenu {
+position: absolute;
+background-color: white;
+border:1px solid black;
+font-size: 10pt;
+z-index: 1000;
+}
+
+div.ricoMenu div.ricoMenuHeading{
+font-weight:bold;
+background-color: #DDD;
+text-decoration: none;
+padding-left: 0px;
+color: black;
+display: block;
+}
+
+div.ricoMenu a{
+text-decoration: none;
+padding-left: 6px;
+font-size: 8pt;
+display: block;
+z-index: 1001;
+}
+
+div.ricoMenu a.enabled {
+color: black;
+}
+
+div.ricoMenu a.disabled {
+color: #999;
+}
+
+div.ricoMenu hr{
+height:1px;
+margin:1px;
+border:0;
+color: #DDD;
+background-color: #DDD;
+}
+
+div.ricoMenu a:hover{ /*hover background color*/
+background-color: #CCFF9D;
+}
+
+/* ricoTableEdit */
+
+span.ricoSaveMsg {
+  background-color:yellow;
+}
+
+span.ricoSessionTimer {
+  background-color:black;
+  color:white;
+}
+
+div.ricoEditForm {
+  color:#000; background:#E8ECF3;
+  overflow:auto;
+  padding:8px;
+  border: 1px solid navy;
+  position:absolute;
+  font-size: 10pt;
+  z-index:2000;
+}
+
+form {
+  margin:0px;
+}
+
+.tabHeader {
+  padding-left: 8px;
+  cursor: pointer;
+}
+
+div.ricoEditForm .tabContent, div.ricoEditForm .noTabContent {
+  color:#000; background:#CFD4E6;
+  overflow: hidden;
+  padding: 4px;
+}
+
+div.ricoEditForm .noTabContent {
+  float:left;  /* required by IE7 */
+}
+
+#DrillDownDesc {
+  font-weight: bold;
+}
+
+/* ricoCalendar */
+
+a.ricoCalDate, a.ricoCalWeekend, a.ricoCalToday {
+  text-decoration:none;
+  color:black;
+}
+
+a.ricoCalWeekend {
+  color:#909090;
+}
+
+a.ricoCalToday {
+  color:red;
+  font-weight:bold;
+}

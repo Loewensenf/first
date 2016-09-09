@@ -1,0 +1,122 @@
+body, p a
+{
+  color: black;
+  background-color: white;
+  font-size: 11px;
+  font-family: verdana;
+  margin: 0;
+  padding: 0;
+  /*background-image:  url('images/nav_back.gif');*/
+  /*background-repeat: repeat-y;*/
+}
+
+ul#Navigation
+{
+  font-size: 11px;
+  float: left;
+  width: 94%;
+  margin: 0;
+  padding: 0;
+  border: 0px dashed silver;
+}
+
+ul#Navigation li
+{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul#Navigation a
+{
+  display: block;
+  padding: 0.2em;
+  font-weight: bold;
+}
+
+ul#Navigation a:link
+{
+  color: black;
+  background-color: #f0eee7;
+}
+
+ul#Navigation a:visited
+{
+  color: #666;
+  background-color: #d6d1bc;
+}
+
+ul#Navigation a:hover
+{
+  color: black;
+  background-color: #d6d1bc;
+}
+
+ul#Navigation a:active
+{
+  color: white;
+  background-color: #f0eee7;
+}
+
+#navibox
+{
+  position:         absolute;
+  top:              0px;
+  left:             0;
+  width:            165px;
+  margin:           0;
+  padding:          0;
+  background-color: #fff;
+  border:           0 #ffffff solid;
+}
+
+#navibox h1
+{
+  font-family:"trebuchet MS",Verdana,sans-serif;
+  /*font-style:  italic;*/
+  font-size:   20px;
+  padding: 0px 0px 0px 10px;
+}
+
+#navibox p
+{
+  font-family: "trebuchet MS",Verdana,sans-serif;
+  /*font-style:  none;*/
+  font-size:   0.8em;
+  margin: 10px;
+}
+
+#sectionLinks{
+  margin: 0px;
+  padding: 0px;
+}
+
+#sectionLinks a:link, #sectionLinks a:visited {
+  display: block;
+  border-top: 1px solid #ffffff;
+  background-color: #f0eee7;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 10px;
+  padding: 3px 0px 3px 10px;
+  color: #555555;
+}
+
+#sectionLinks a:hover{
+  border-top: 1px solid #ffffff;
+  background-color: #d6d1bc;
+  background-image: none;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#sectionLinks .spacer {
+  display: block;
+  /*border-bottom: 1px solid #000;*/
+  background-color: #888;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 4px;
+  padding: 0px 0px 0px 10px;
+  color: #555555;
+}

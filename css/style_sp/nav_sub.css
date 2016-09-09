@@ -1,0 +1,59 @@
+#navibox {
+  /*width: 177px;*/
+  text-align: left;
+	border: 0px solid red;
+	border-bottom: none;
+	margin-bottom: 2px;
+}
+
+#navibox ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-indent: 20px;
+  letter-spacing: 1px;
+}
+
+#navibox li {
+  list-style-image: none;
+  margin:0;
+  border-bottom: 1px solid black;
+  float: left;
+}
+
+#navibox li.NavHead
+{
+  background:#039AD9;
+  font: bold 11px Arial, Helvetica, sans-serif;
+}
+
+#navibox a {
+  display: block;
+  width: 177px;
+  height: 22px;
+  font: bold 9px Arial, Helvetica, sans-serif;
+  line-height: 22px;
+}
+
+#navibox  a:link, #navibox  a:visited {
+  background: url('images/MenueBeispiel.gif');
+  color: #CC6600;
+  text-decoration: none;
+  padding-bottom: 0;
+}
+
+#navibox li a:hover {
+  background: url('images/MenueBeispiel.gif')
+  /* hier wird das Image verschoben */
+  0px -22px no-repeat;
+  color: #fff;
+  text-decoration: none;
+}
+
+#navibox #current a{
+  background: url('images/MenueBeispiel.gif')
+   /* hier wird das Image verschoben */
+  0px -22px no-repeat;
+  color: #fff;
+  text-decoration: none;
+}
